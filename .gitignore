@@ -1,0 +1,15 @@
+# 忽略所有 .exe 和 .db 结尾的文件
+*.exe
+*.db
+
+# 忽略 test/ConsoleApplication1/Debug 目录下的所有文件
+test/ConsoleApplication1/Debug
+
+
+# 忽略 test/ConsoleApplication1/ConsoleApplication1/ 目录下的 .jpg文件和 .txt文件 和Debug/目录 和x64/目录
+test/ConsoleApplication1/ConsoleApplication1/*.jpg
+test/ConsoleApplication1/ConsoleApplication1/*.avi
+test/ConsoleApplication1/ConsoleApplication1/*.txt
+test/ConsoleApplication1/ConsoleApplication1/Debug/
+test/ConsoleApplication1/ConsoleApplication1/x64/
+
